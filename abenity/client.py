@@ -90,7 +90,7 @@ class Abenity(object):
         params.update(data.items())
 
         api_url = self._api_url+'/v'+str(self._version)+'/client'+api_method
-        headers = {'user-agent': 'abenity/abenity-php v2)'}
+        headers = {'user-agent': 'abenity/abenity-python)'}
         response = {}
 
         if http_method == 'GET':
